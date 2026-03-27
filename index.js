@@ -26,7 +26,7 @@ function findMaximum(num1, num2) {
         return num1 > num2 ? num1 : num2;
 }
 function isPalindrome(word) {
-    if (word === palindrome) {
+    if (word === word.split('').reverse().join('')) {
         return true;
     } else {
         return false;
